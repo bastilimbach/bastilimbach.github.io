@@ -1,0 +1,22 @@
+title: Sebastian Limbach
+author: Sebastian Limbach
+email: info@limbachdesign.de
+adress1: Eichfeld 1a
+adress2: 53773 Hennef(Sieg), Deutschland
+copyright: "This site is powered by <a href='https://jekyllrb.com' target='_blank'>Jekyll</a>, hosted by <a href='https://pages.github.com' target='_blank'>Github Pages</a> and maintained by Sebastian Limbach.<br>&copy All rights reserved."
+baseurl: ""
+url: ""
+sourceCode: "https://github.com/bastilimbach/bastilimbach.github.io"
+twitter: limbachdesign
+github: limbachdesign
+analyticsID: UA-63161411-1
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
