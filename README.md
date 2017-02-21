@@ -1,4 +1,6 @@
 # limbachdesign.de
+[![Build Status](https://travis-ci.org/bastilimbach/bastilimbach.github.io.svg?branch=master)](https://travis-ci.org/bastilimbach/bastilimbach.github.io) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bastilimbach/bastilimbach.github.io/master/LICENSE)
+
 This site is build using [Jekyll](https://jekyllrb.com/) and maintained by [Sebastian Limbach](https://github.com/bastilimbach).
 
 ## Directory structure
