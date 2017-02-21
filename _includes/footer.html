@@ -3,28 +3,33 @@
         <div class="contact">
             <h3>Contact</h3>
             <ul>
-                <li><p>{{site.author}}</p></li>
-                <li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+                <li><p>{{ site.author }}</p></li>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             </ul>
         </div>
         <div class="social">
             <h3>Social</h3>
             <ul>
-                <li><a href="https://twitter.com/{{site.twitter}}" target="_blank">Twitter</a></li>
-                <li><a href="https://github.com/{{site.github}}" target="_blank">Github</a></li>
+                <li><a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/{{ site.github.username }}" target="_blank">Github</a></li>
             </ul>
         </div>
         <div class="links">
             <h3>Links</h3>
             <ul>
                 <li><a href="{{ site.baseurl }}/imprint.html">Imprint</a></li>
-                <li><a href="{{ site.sourceCode }}" target="_blank">Source code</a></li>
+                <li><a href="{{ site.repository.url }}" target="_blank">Source code</a></li>
             </ul>
         </div>
         <div class="copyright">
             <h3>Copyright</h3>
             <ul>
-                <li><p>{{site.copyright}}</p></li>
+                <li>
+                    <p>
+                        This site is powered by <a href='https://jekyllrb.com' target='_blank'>Jekyll</a>, hosted on <a href='https://pages.github.com' target='_blank'>Github Pages</a> and maintained by Sebastian Limbach.<br>
+                        Released under the <a href='https://github.com/bastilimbach/bastilimbach.github.io/blob/master/LICENSE'>MIT License</a>.<br> &copy Sebastian Limbach.
+                    </p>
+                </li>
             </ul>
         </div>
     </div>
