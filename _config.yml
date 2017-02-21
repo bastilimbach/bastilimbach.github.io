@@ -31,4 +31,4 @@ exclude:
   - .gitignore
   - .travis.yml
   - README.md
-  - [vendor]
+  - vendor
