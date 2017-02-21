@@ -21,4 +21,4 @@ Further information concerning the terms and conditions of use and data privacy 
 
 [1]:	https://tools.google.com/dlpage/gaoptout?hl=en-GB
 [2]:	http://www.google.com/analytics/terms/gb.html
-[3]:	https://www.google.de/intl/en%5C_uk/policies/
+[3]:	https://www.google.com/intl/en_uk/policies/
