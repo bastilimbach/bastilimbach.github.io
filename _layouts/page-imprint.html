@@ -1,17 +1,17 @@
-{% capture pageTitle %}{{site.title}} - {{page.title}}{% endcapture %}
+{% capture pageTitle %}{{ site.title }} - {{ page.title }}{% endcapture %}
 {% include head.html title=pageTitle %}
 <body>
     <header class="pageHeader">
-        <a href="{{site.github.url}}"><h1>{{site.author}}</h1></a>
+        <a href="{{ site.url }}"><h1>{{ site.author }}</h1></a>
     </header>
     <div class="main page">
         <ul>
-            <li><strong>{{site.author}}</strong></li>
-            <li>{{site.adress1}}</li>
-            <li>{{site.adress2}}</li>
-            <li>{{site.email}}</li>
+            <li><strong>{{ site.author }}</strong></li>
+            <li>{{ site.adress.street }}</li>
+            <li>{{ site.adress.town }}</li>
+            <li>{{ site.email }}</li>
         </ul>
-        {{content}}
+        {{ content }}
     </div>
     {% include footer.html %}
 </body>

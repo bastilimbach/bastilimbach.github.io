@@ -7,7 +7,7 @@ layout: default
         <li class="post{% if mod == '0' %} even{% endif %}" >
             {% capture imgPath %}{{ site.baseurl }}/assets/images/{{ post.imageFolder }}/{% endcapture %}
             <figure class="postImgContainer" slideshow="{{ post.slideshow | join: ',' }}" slideshowpath="{{ imgPath }}">
-                <img src="{{ site.github.url }}/assets/images/{{ post.imageFolder }}/feature.jpg" alt="">
+                <img src="{{ site.baseurl }}/assets/images/{{ post.imageFolder }}/feature.jpg" alt="test">
                 <figcaption class="postImgOverlay"></figcaption>
             </figure>
             <div class="postContent">
