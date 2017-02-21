@@ -1,7 +1,11 @@
+::selection
+    background: $black
+    color: $white
+
 .box
     width: 100px
     height: 100px
-    background: #000
+    background: $black
 
 body
     font-family: 'Rubik', sans-serif !important
@@ -214,6 +218,9 @@ footer
     padding: 100px 0 !important
     @media #{$mobile}
         padding: 50px 50px !important
+    ::selection
+        background: $white
+        color: $black
     .footerContainer
         display: flex
         justify-content: space-between
