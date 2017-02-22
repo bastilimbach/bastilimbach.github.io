@@ -16,8 +16,8 @@ twitter:
     username: bastilimbach
 github:
     username: bastilimbach
-
-analyticsID: UA-63161411-1
+mixpanel:
+    id: 13f0965a7e964e1e4c7a9b50303e3504
 
 # Build settings
 markdown: kramdown
@@ -26,9 +26,10 @@ sass:
     style: compressed
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
-  - .travis.yml
-  - README.md
-  - vendor
+    - Gemfile
+    - Gemfile.lock
+    - .gitignore
+    - .travis.yml
+    - README.md
+    - Rakefile
+    - vendor
