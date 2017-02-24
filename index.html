@@ -6,10 +6,9 @@ layout: default
         {% capture mod %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
         <li class="post{% if mod == '0' %} even{% endif %}" >
             {% capture imgPath %}{{ site.baseurl }}/assets/images/{{ post.imageFolder }}/{% endcapture %}
-            <figure class="postImgContainer" slideshow="{{ post.slideshow | join: ',' }}" slideshowpath="{{ imgPath }}">
+            <a href="{{ post.siteLink }}" target="_blank" class="postImgContainer">
                 <img src="{{ site.baseurl }}/assets/images/{{ post.imageFolder }}/feature.jpg" alt="test">
-                <figcaption class="postImgOverlay"></figcaption>
-            </figure>
+            </a>
             <div class="postContent">
                 <h2><a class="post-link" href="{{ post.siteLink }}" target="_blank">{{ post.title | escape }}</a></h2>
                 <p>{{ post.content }}</p>
