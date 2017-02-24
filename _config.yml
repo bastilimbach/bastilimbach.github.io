@@ -33,3 +33,10 @@ exclude:
     - README.md
     - Rakefile
     - vendor
+    - scripts
+    - node_modules
+    - package.json
+    - yarn.lock
+    - webpack.config.js
+    - .sass-cache
+    - .jekyll-metadata
