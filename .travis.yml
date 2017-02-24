@@ -3,10 +3,10 @@ rvm:
     - 2.4.0
     - 2.3.3
     - 2.3.0
-
 env:
     global:
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
+script: npm run build
 # Travis runs rake test automatically
+# script: rake test
 sudo: false
