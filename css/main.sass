@@ -57,7 +57,7 @@ body
         transform: translateY(-50%)
         @media #{$mobile}
             font-size: 1em
-        .typed-cursor
+        .ityped-cursor
             opacity: .8
             animation: blink 1s infinite
         @keyframes blink
@@ -156,29 +156,6 @@ body
                         vertical-align: top
                         @media #{$mobile}
                             max-width: 100%
-                    .postImgOverlay
-                        position: absolute
-                        top: 0
-                        left: 0
-                        width: 100%
-                        height: 100%
-                        opacity: 0
-                        transition: all 0.2s ease
-                        &::before
-                            position: absolute
-                            left: 50%
-                            top: 50%
-                            transform: translate(-50%, -50%)
-                            font-family: 'icomoon' !important
-                            content: "\e904"
-                            speak: none
-                            font-size: 2em
-                            color: $black
-                    &:hover
-                        img
-                            opacity: .2
-                        .postImgOverlay
-                            opacity: 1
                 .postContent
                     padding-left: 50px
                     @media #{$mobile}
