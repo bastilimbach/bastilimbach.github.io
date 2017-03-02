@@ -1,5 +1,4 @@
-var path = require('path');
-var webpack = require("webpack");
+const path = require('path')
 
 module.exports = {
     entry: './scripts/main.js',
@@ -7,4 +6,4 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     }
-};
+}
