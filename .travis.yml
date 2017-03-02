@@ -6,7 +6,11 @@ rvm:
 env:
     global:
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-script: npm run build
+before_script:
+    - npm install
+script:
+    - npm run lint
+    - npm run build
+    # - rake test
 # Travis runs rake test automatically
-# script: rake test
 sudo: false
