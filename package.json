@@ -6,16 +6,26 @@
   "author": "Sebastian Limbach <bastilimbach@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack -p",
-    "build:dev": "webpack -w"
+    "start": "jekyll serve",
+    "build": "webpack -p && bundle exec rake test",
+    "build:dev": "webpack -w",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "precommit": "npm run lint",
+    "prepush": "npm run build"
   },
   "dependencies": {
+    "cookie-disclaimer": "^2.0.2",
     "cookieconsent": "^3.0.4",
     "ityped": "^0.0.9",
     "scrollreveal": "^3.3.4",
-    "vanilla-tilt": "^1.3.0"
+    "vanilla-tilt": "https://github.com/bastilimbach/vanilla-tilt.js.git#fix/issue-15"
   },
   "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.1",
     "webpack": "^2.2.1"
   }
 }
