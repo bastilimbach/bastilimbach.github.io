@@ -2262,9 +2262,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
-"vanilla-tilt@https://github.com/bastilimbach/vanilla-tilt.js.git#fix/issue-15":
+vanilla-tilt@^1.3.0:
   version "1.3.0"
-  resolved "https://github.com/bastilimbach/vanilla-tilt.js.git#47cb44361f12b569115dcaaca8995ca50b0aa10e"
+  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.3.0.tgz#a02ed1f7e4aaf333a15fc32d381f2644e90d6c88"
 
 verror@1.3.6:
   version "1.3.6"
