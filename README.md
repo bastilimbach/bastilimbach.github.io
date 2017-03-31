@@ -1,5 +1,5 @@
 # sebastianlimbach.com
-[![Build Status](https://travis-ci.org/bastilimbach/bastilimbach.github.io.svg?branch=master)](https://travis-ci.org/bastilimbach/bastilimbach.github.io) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bastilimbach/bastilimbach.github.io/master/LICENSE)
+[![Build Status](https://travis-ci.org/bastilimbach/bastilimbach.github.io.svg?branch=master)](https://travis-ci.org/bastilimbach/bastilimbach.github.io) [![Code Climate](https://lima.codeclimate.com/github/bastilimbach/bastilimbach.github.io/badges/gpa.svg)](https://lima.codeclimate.com/github/bastilimbach/bastilimbach.github.io) [![Dependencies](https://david-dm.org/bastilimbach/bastilimbach.github.io.svg)](https://david-dm.org/bastilimbach/bastilimbach.github.io) [![Dev Dependencies](https://david-dm.org/bastilimbach/bastilimbach.github.io/dev-status.svg)](https://david-dm.org/bastilimbach/bastilimbach.github.io) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bastilimbach/bastilimbach.github.io/master/LICENSE)
 
 This site is build using [Jekyll](https://jekyllrb.com/) and maintained by [Sebastian Limbach](https://github.com/bastilimbach).
 ![Screenshot](.github/screenshot.png)
@@ -18,15 +18,17 @@ This site is build using [Jekyll](https://jekyllrb.com/) and maintained by [Seba
 If you want to dig deeper into the directory structure of a jekyll app, consider taking a look at [the docs.](https://jekyllrb.com/docs/structure/)
 
 ## Developing
-To get this site running locally, you need to install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and [jekyll](https://jekyllrb.com/docs/quickstart/). After a successful installation, follow these steps below:
+To get this site running locally, you need to install [ruby](https://www.ruby-lang.org/en/documentation/installation/), [jekyll](https://jekyllrb.com/docs/quickstart/) and [node.js](https://nodejs.org/). After a successful installation, follow these steps below:
 
 - Clone the source code using `git clone https://github.com/bastilimbach/bastilimbach.github.io`.
-- Install all the dependencies by running `bundle install`.
-- Start the jekyll server for local testing with `jekyll serve`.
+- Install all the ruby dependencies by running `bundle install`.
+- Install all the javascript dependencies by running `npm install`.
+- Start the server for local testing with `npm start`.
 - Happy coding! :+1:
 
 ## Contribution
 If you find a typo or some other bug, Pull Requests are very welcome!
+> Important: Before you push your changes, run `npm run build`.
 
 ## License
 This website is happy to be a part of the open source movement, so it of course uses the license we all love. [MIT License](/LICENSE) :heart:
