@@ -8,6 +8,9 @@ env:
         - TRAVIS_NODE_VERSION="7.6"
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 before_script:
+    - nvm install stable
+    - nvm use stable
+    - npm install
     - npm install -g yarn
 script:
     - yarn install
