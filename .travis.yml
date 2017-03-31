@@ -5,12 +5,13 @@ rvm:
     - 2.3.0
 env:
     global:
+        - TRAVIS_NODE_VERSION="7.6"
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 before_script:
-    - npm install
+    - yarn install
 script:
-    - npm run lint
-    - npm run build
+    - yarn run lint
+    - yarn run build
     # - rake test
 # Travis runs rake test automatically
 sudo: false
