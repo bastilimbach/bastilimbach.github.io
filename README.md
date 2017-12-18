@@ -28,7 +28,7 @@ To get this site running locally, you need to install [ruby](https://www.ruby-la
 - Happy coding! :+1:
 
 ## Contribution
-If you find a typo or some other bug, Pull Requests are very welcome!
+If you find a typo or some other bug, Pull Requests are very welcome! Please note that this project is released with a [Contributor Code of Conduct](https://github.com/bastilimbach/bastilimbach.github.io/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 > Important: Before you push your changes, run `npm run build`.
 
 ## License
